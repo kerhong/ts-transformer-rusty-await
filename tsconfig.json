@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "plugins": [{ "transform": "./transformer/rusty-await.ts" }],
+    "target": "es2021",
+    "module": "CommonJS"
+  },
+  "exclude": ["node_modules/"]
+}
